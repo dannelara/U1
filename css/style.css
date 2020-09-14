@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+html{
+    font-size: 12px;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.länkar{
+    margin: 0;
+    list-style: none;
+   padding: 0%;
+  
+}
+
+ul{
+    list-style: square;
+}
+
+li{
+   font-size: 1.2rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: midnightblue;
+}
+
+h2, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: darkslategray;
+} 
+
+img{
+    max-width: 100%;
+}
+img{
+    max-height: 300px;
+}
+
+img{
+    text-align: center;
+}
