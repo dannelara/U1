@@ -8,13 +8,27 @@ body {
     margin: 0 auto;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
-
-.länkar{
-    margin: 0;
+/*
+#bild1{
+    background-image: url(../img/imageproxy.jpg);
+}
+*/
+.länkar {
+    color: black;
+    margin: 20px;
     list-style: none;
-   padding: 0%;
-  
+    padding: 10px;
+    background-color: lightblue;
+    display:inline-block;
+   
+}
+a:hover, a:visited, a:link, a:active {
+     
+    text-decoration: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
 }
 
 ul{
@@ -39,11 +53,6 @@ h2, h3, h4 {
 
 img{
     max-width: 100%;
-}
-img{
     max-height: 300px;
-}
-
-img{
     text-align: center;
 }
