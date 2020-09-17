@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 html{
-    font-size: 12px;
+    font-size: 15px;
 }
 body {
     max-width: 600px;
     margin: 0 auto;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -19,6 +19,7 @@ body {
     padding: 10px;
     background-color: lightblue;
     background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .länkar {
     color: black;
@@ -27,7 +28,7 @@ body {
     padding: 10px;
     background-color: lightblue;
     background-size: contain;
-    
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 a:hover, a:visited, a:link, a:active {
@@ -46,22 +47,26 @@ ul{
 
 li{
    font-size: 1.2rem;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family:Arial, Helvetica, sans-serif;
 }
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
 }
 
 h2, h3, h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
+    
 } 
 
 img{
     max-width: fit-content;
     max-height: 338px;
     text-align: center;
+}
+
+#html5{
+    max-width: 500px;
+    
 }
