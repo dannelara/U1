@@ -8,26 +8,52 @@
 </head>
 
 <body >
-    <nav class="länkar" id="länkarsida1">
-        
-         <li> <a href='index.html'>Startsidan</a></li>
-         <li> <a href='sida2.html'>Datakommunikation och webbadresser</a></li>
-         <li> <a href='sida3.html'>HTML5</a></li>
-         <li> <a href='sida4.html'>CSS</a></li>
-
-       </nav>
+    <ol class="länkar" >
+        <li><a href='index.html'>Startsidan</a></li>
+        <li><a href='sida2.html'>Datakommunikation och webbadresser</a></li>
+        <li><a href='sida3.html'>HTML5</a></li>
+        <li><a href='sida4.html'>CSS</a></li>
+    
+    </ol>
 
        <img src="/img/imageproxy.jpg" alt="bild på internet">
         <h1>Datakommunikation och webbadresser</h1>
       
        <p id="scroll"> <a href="#HTTP">HTTP</a>- <a href="#TCP">TCP</a>- <a href="#IP">IP</a></p>
+       <div class="texter">
     <h2 id='HTTP'>HTTP</h2>
-     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse velit quia quis doloremque vero laudantium necessitatibus consectetur aperiam iusto. Voluptas neque amet fuga aliquam soluta dolorem totam praesentium aspernatur.</p>
+    <p>
+         HTTP används när din webbläsare behöver hämta innehåll från en webbserver. Vanligtvis handlar det om HTML-filer och bilder, men det kan även handla om andra typer av filer, till exempel video eller zip-filer.
+       
+        Hela World Wide Web 
+         bygger på denna typen av nätverkskommunikation. HTTP bestämmer hur data hämtas och skickas mellan hemsidor och servrar runt hela världen. Man kan säga att HTTP fungerar som en sändare mellan våra datorer och den server som har informationen som vi vill nå.
+         </p>
      <h3 id="TCP">TCP</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam, repellat esse vel voluptas autem doloremque natus libero consequuntur labore officia ipsam. Veniam, hic quibusdam. Aperiam, mollitia a! Esse, labore.
-    </p>
+     
+    <p>
+        TCP är det som tillåter datorer att kommunicera med varandra. 
+        Vi använder nästan aldrig TCP-protokollet ensamt. 
+        Protokollet används nästan alltid ihop med Internet Protocol (IP) som ser till att kommunikation mellan datorer är möjligt.
+        Detta kallas för en TCP/IP-stack. 
+        <p>
+        Den här typen av TCP och IP stack används av det största nätverket i världen, internet. Det är det primära sättet som möjliggör samarbete mellan majoriteten av de miljontals datorer på internet.</p>
+    
+
     <h4 id="IP">IP</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium porro est nemo ea, iusto rem repellendus deserunt natus quas minus possimus doloribus numquam dolore ipsum. Perspiciatis consequatur cumque ipsam ratione!</p>
-   
+    <p>IP (Internet Protocol Adress) är en funktion som ser till att rätt informtion kommer till rätt dator. Allt som är kopplat till internet har en IP-adress. Denna IP-adress är unik till varje enhet. När enheten vill nå en webbadress/hämta data så skickas information till klient-sidan med vår IP-adress. Detta för att informationen, som enheten har ansökt, ska komma till rätt enhet. </p>
+    <h5>EXEMPEL</h5>
+    <p>Denna webbadress består utav olika delar. </p>
+    <p class="exempelet">http://medieteknik.lnu.se/1me321/uppg/u1.html#fragor</p>
+
+    
+    <p>Här använder vi oss utav tjänst protokollet 'HTTP' för att komma fram till webbadressen. </p>
+    <p class="exempelet"> HTTP:// </p> 
+
+    <p>Sedan har vi klientens egna adress och IP till klient-servern, som i det här fallet är ' medieteknig.lnu.se. Denna domänen har även en egen IP-adress. Denna delen innehåller även en domän. Domänen här är 'lnu.se'</p>
+    <p class="exempelet">medieteknik.lnu.se</p>
+    
+    <p>Sista delen utav exemplet är en andress inom klient-servern. </p>
+    <p class="exempelet">/1me321/uppg/u1.html#fragor</p>
+</div>
 </body>
 </html>

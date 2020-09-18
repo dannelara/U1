@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +8,62 @@
 </head>
 
 <body>
-    <nav class="länkar">
+    <ol class="länkar" >
         <li><a href='index.html'>Startsidan</a></li>
-        <li><a href='sida2.html'>Datakommunikation och webbadresser</a></a></li>
+        <li><a href='sida2.html'>Datakommunikation och webbadresser</a></li>
         <li><a href='sida3.html'>HTML5</a></li>
         <li><a href='sida4.html'>CSS</a></li>
     
-    </nav>
+    </ol>
     <img id="html5" src="/img/html5-logo-blue-512.png" alt="bild på html logan">
     <h1>HTML5</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga beatae fugit explicabo sint necessitatibus dolor. Nisi numquam expedita atque, exercitationem iure omnis magni quaerat aut quasi recusandae, sunt maxime!</p>
+    <div class="texter">
+    
+    <p>När du arbetar med HTML dokument jobbar du ständigt med Element, Taggar och Attributer. Men vad är dessa tre och vad har de för funktion? Element används för att rendera webbsidors struktur med HTML. Taggar används för att markera vart olika delar startar och slutar. Attribut förklarar hur olika delar på en hemsida ska se ut. Exempel på attribut kan vara höjd och bredd på en bild</p>
 
-    <ul>
-        <li >a</li>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam saepe, quasi, delectus nobis minus accusantium facilis autem quas optio totam aperiam a. Numquam temporibus iusto praesentium ipsam culpa doloremque!</p>
-        <li >img</li>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quos ipsam sapiente dicta ab, repudiandae ut suscipit sequi ea veniam necessitatibus accusamus laboriosam reprehenderit nulla. Amet adipisci consectetur cumque odio.</p>
-        <li>ol</li>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur commodi ipsam numquam beatae quos modi, voluptates voluptate amet eius laboriosam nihil minima officiis officia, magni illum delectus quisquam omnis natus.</p>
-    </ul> <p>På följande sida kan du hitta mer information: <a href="https://www.freecodecamp.org/news/semantic-html5-elements/"target="_blank">Read more about HTML-elements</a>
+    <div>
+        <ul>
+        <li>a
+           <ul>
+           <li>download</li>
+           <li>href</li>
+           <li>target</li>
+           </ul>
+        </li>
+        <li>img
+           <ul>
+           <li>alt</li>
+           <li>src</li>
+           <li>sizes</li>
+           </ul>
+        </li>
+        <li>ol 
+           <ul>
+            <li>reversed</li>
+            <li>start</li>
+            <li>type</li>
+           </ul>
+        </li>
+        </ul>
+        </div>
+      <p>
+          <b>a</b> taggen används för att skapa hyperlänkar. Dessa används för att länka från en sida till en annan sida inom webbadressen eller till en extern sida.
+        <b>a</b> elementen kan ha flera typer utav attribut som utför olika funktioner. 
+       En typ av attribut som <b>a</b> elementet kan ha är <b>download </b>, som har värdet <b>filename</b>. Denna attribut specifierar att objektet ska laddas ner när vi trycker på hyperlänken.
+       Ett till attribut som <b>a</b> elementet kan ha är attributet <b>target</b>. Attributets funktion är att bestämma vart vi ska öppna länken. Ett exempel på detta attribut kan vara <b>target="_blank</b> som ser till att länken öppnas i en ny flik.
+       Den viktigaste attributet för ett <b>a</b>element är <b>href</b>. Det attributet har som funktion att indikera länkens destination.</p>
+  
+   <p>
+       <b>img</b> används för att implementera bilder på en HTML sida. Det är viktigt att förstå att bilder inte är bifogade på en webbsida, de är länkade till sidan.
+    
+    <b>img</b> har två attribut som måste finnas med för att taggen ska fungera ordentligt. De två attributen är <b>src </b> och <b>alt</b>. Attributen <b>src</b> har som funktion att visa vägen till bilden. Det andra attributet har som funktion att beskriva bilden med ord. Ifall bilden inte skulle visas på sidan kan vi med hjälp av texten se vad det är för bild vi refererar till.
+            Ett till attribut som <b>img</b> kan ha är <b>sizes</b>. Detta attribut specifierar bildens storlek.
+        </p>
+        <p>
+            <b>ol</b> är en tagg som skapar en lista. En lista kan innehålla nummer eller bokstäver. En <b>ol</b> tagg har tre möjliga attribut.
+            <b>reversed</b> ser till att listan ska vara baklänges. tex. '8,7,6....'. <b>start</b> identifierar start värdet på en lista. Det sista attributet är <b>type</b> som bestämmer vad listan ska ha som markör. Exempel på markörer kan vara '<b>1,A,a,I,i</b>'
 
+    <p>På följande länk hittar du mer information kring element, taggar och attribut: <a href="https://www.freecodecamp.org/news/semantic-html5-elements/" target="_blank">Read more about HTML-elements</a>
+</div>
 </body>
 </html>

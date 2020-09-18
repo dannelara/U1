@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +7,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <nav class="länkar">
-        <li><a href='index.html'>Startsidan</a></li>
-        <li><a href='sida2.html'>Datakommunikation och webbadresser</a></a></li>
-        <li><a href='sida3.html'>HTML5</a></li>
-        <li><a href='sida4.html'>CSS</a></li>
-     </nav>
+
+<ol class="länkar" >
+    <li><a href='index.html'>Startsidan</a></li>
+    <li><a href='sida2.html'>Datakommunikation och webbadresser</a></li>
+    <li><a href='sida3.html'>HTML5</a></li>
+    <li><a href='sida4.html'>CSS</a></li>
+
+    
+</ol>
 
         <img src="/img/hero.png" alt="bild på css logan">
-        <h1>CSS</h1>
-        
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae illum at, officiis, ipsam ullam architecto quia ipsa, itaque voluptatibus libero voluptas debitis consectetur esse sint accusamus nobis id sed fugiat!</p>
+              <h1>CSS</h1>
+        <div class="texter">
+        <p>CSS är ett språk som skapar stilmall till en webbsida. CSS skapar presentationsstilen för hemsidans alla element. Med hjälp av CSS kan vi fixa typsnitt, textstorlek och färg. </p>
+
         <h2>Regel i CSS</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt sapiente modi itaque eaque, explicabo ullam tempore blanditiis iste assumenda quasi voluptates quas illum ex perferendis tenetur. Assumenda, eius aperiam?</p>
-        <h3>Kasda i CSS</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dolorum voluptatem porro, dicta perferendis expedita quae aspernatur praesentium excepturi? Iste aliquam nesciunt reprehenderit aliquid voluptatem, unde perferendis. Voluptas, ut id.</p> 
-            
+        <p>CSS-regler består av två delar. Den första delen kallas för selektorer. Vi använder selektorer för att bestämma vad som påverkas av CSS-regeln. 
+        Du kan hitta mer information gällande selektorer på följande sida: <a href="https://webbling.se/index.php/Selektor" target="_blank">Läs om selektorer</a>.
+        Den andra delen är de egenskaper och värden selektorer har. Vad som är viktigt att tänka på när man gör selektorer är att egenskaperna måste ligga inom ett '{}'-block.
+    
+    </p>
+        <h3>Kaskad i CSS</h3>
+        <p>CSS betyder 'Cascading Style Sheets'. Vilken funktion Style sheet har är givet. Men vad betyder 'Cascading'? 
+            När man arbetar med en html-sida finns det flera stilmallar som går att tillämpa. Olika webbläsare  innehåller egna stilmallar, dessa är standardmallar och kan ändras genom att vi inför våra egna stilmallar. Användare kan ha egna stillmalar kopplade till deras webbläsare. Sedan har vi de stilmallar skaparen av html-sidan har lagt till. 
+
+            Det är här Kaskaden tar över. Kaskaden beskriver vilken prioritet de olika stilmallar har dvs vilken stilmall som ska visas. Följande är hur kaskade prioriterar stilmallar:
+        </p> 
+        <p class="exempelet">Webbläsarens inbyggda regler -> Användarens egna regler -> Upphovsmannens regler -> Användarens regler som är utmärkta med (Important) -> Upphosmannens regler som är utmärkta med (Important)</p>
+        <p>Om olika regler har liknade funktioner så har alltså den femte regeln företräde. Detsamma gäller regeln fyra och regeln tre. Vi kan säga att kaskaden rinner neråt som i en hierarki.</p>
+           </div> 
 </body>
 </html>

@@ -2,15 +2,20 @@
 
 html{
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 10px;
-   font-family: Arial, Helvetica, sans-serif;
+    max-width: inherit;
+    margin: auto;
+    padding: 0;
+    font-family: inherit;
+    text-align: center;
 
 }
-
+.texter{
+    text-align: left;
+    padding: 10px;
+}
 
 #scroll{
     color: black;
@@ -19,7 +24,8 @@ body {
     padding: 10px;
     background-color: lightblue;
     background-size: contain;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:inherit;
+    ;
 }
 .länkar {
     color: black;
@@ -28,18 +34,23 @@ body {
     padding: 10px;
     background-color: lightblue;
     background-size: contain;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:inherit;
+    
    
 }
-a:hover, a:visited, a:link, a:active {
+ a:link {
      
     text-decoration: none!important;
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
 }
-a:hover, a:active {
+a:hover {
     background-color: lightcyan;
   }
+
+a:active{
+    text-decoration: rgb(26, 19, 19);
+}
   
 ul{
     list-style: square;
@@ -47,26 +58,43 @@ ul{
 
 li{
    font-size: 1.2rem;
-   font-family:Arial, Helvetica, sans-serif;
+   font-family:inherit;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit;
     color: midnightblue;
+    font-size: 1.2rem
 }
 
-h2, h3, h4 {
-    font-family: Arial, Helvetica, sans-serif;
+h2, h3, h4,h5 {
+    font-family: inherit;
     color: darkslategray;
-    
+    font-size: 1.2rem
 } 
 
 img{
-    max-width: fit-content;
+    max-width: max-content;
     max-height: 338px;
     text-align: center;
+    
+    
 }
 
 #html5{
     max-width: 500px;
     
+}
+#kontakt{
+    text-decoration: none;
+    font-size: inherit;
+}
+
+.exempelet{
+    color: black;
+    margin: 10px;
+    list-style: none;
+    padding: 10px;
+    background-color: lightblue;
+    background-size: contain;
+    font-family:inherit;
 }
